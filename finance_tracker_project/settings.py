@@ -15,7 +15,7 @@ DEBUG = False
 
 ROOT_URLCONF = 'finance_tracker_project.urls'
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['http://localhost:3000', 'https://nikhilkalburgi.github.io']
 
 # Application definition
 INSTALLED_APPS = [
