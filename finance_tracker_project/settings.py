@@ -15,7 +15,7 @@ DEBUG = False
 
 ROOT_URLCONF = 'finance_tracker_project.urls'
 
-ALLOWED_HOSTS = ['http://localhost:3000', 'https://nikhilkalburgi.github.io']
+ALLOWED_HOSTS = ["*"]
 
 # Application definition
 INSTALLED_APPS = [
@@ -72,9 +72,7 @@ REST_FRAMEWORK = {
 # CORS settings
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # React default port
-    "http://localhost:4200",  # Angular default port
-    "https://nikhilkalburgi.github.io"
+   "*"
 ]
 CORS_ALLOW_METHODS = [
     'DELETE',
